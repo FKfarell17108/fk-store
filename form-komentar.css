@@ -1,0 +1,52 @@
+/* Gaya untuk input dan textarea */
+input[type="text"],
+input[type="email"],
+textarea {
+    color: whitesmoke;
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+/* Gaya untuk daftar komentar */
+ul.comments {
+    color: whitesmoke;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+/* Gaya untuk komentar utama */
+ul.comments li {
+    color: whitesmoke;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+/* Gaya untuk komentar balasan */
+ul.comments.reply {   
+    margin-top: 10px;
+    margin-left: 50px;
+}
+/* Gaya untuk tombol balasan */
+.comments div {
+    cursor: pointer; /* Kursor berubah menjadi tanda tangan saat diarahkan */
+    margin-bottom: 5px; /* Jarak antara tombol balasan dan komentar */
+}
+/* Gaya untuk formulir balasan */
+.comments form {
+    display: inline-block;
+    margin-top: 10px;
+} 
+/* Gaya untuk label */
+label {
+    color: whitesmoke;
+}
+/* Gaya untuk tombol submit */
+
+
+/* Gaya untuk tombol submit saat dihover */
+input[type="submit"]:hover {
+    background-color: #45a049; /* Warna latar hijau yang lebih gelap saat dihover */
+}

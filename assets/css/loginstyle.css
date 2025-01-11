@@ -1,0 +1,245 @@
+/* Impor (Font) */
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+
+/* Reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* General Style */
+body {
+  height: 120vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  position: absolute;
+  top: 22px;
+  left: 22px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  width: 48px;
+}
+
+.logo a {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #2a2a2a;
+}
+
+.container {
+  width: 440px;
+  padding: 40px 32px;
+  border-radius: 8px;
+  box-shadow: #2a2a2a 0px 5px 10px 0px;
+}
+
+.container h1 {
+  font-size: 1.6rem;
+}
+
+.container .social-login {
+  display: flex;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.container .social-login button {
+  padding: 8px;
+  width: 100%;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #aaa;
+  border: 1px solid #aaa;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.container .social-login button i {
+  font-size: 26px;
+}
+
+.container .social-login button:hover {
+  color: #2a2a2a;
+  border-color: #2a2a2a;
+}
+
+.container .divider {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.container .divider .line {
+  height: 1px;
+  width: 100%;
+  background: #2a2a2a;
+  opacity: 0.2;
+  margin: 30px 0 16px;
+}
+
+.container form label {
+  color: #aaa;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.03rem;
+  display: block;
+  margin-top: 12px;
+}
+
+.container form .custome-input {
+  position: relative;
+}
+
+.container form .custome-input input {
+  color: #2a2a2a;
+  font-size: 16px;
+  font-weight: 500;
+  width: 100%;
+  height: 46px;
+  letter-spacing: 0.03rem;
+  border: 1px solid #aaa;
+  background: transparent;
+  outline: none;
+  border-radius: 8px;
+  text-indent: 20px;
+  margin-top: 6px;
+  transition: all 0.3s ease;
+}
+
+.container form .custome-input input:focus {
+  border-color: #2a2a2a;
+}
+
+.container form .custome-input i {
+  position: absolute;
+  font-size: 28px;
+  right: 10px;
+  top: 14px;
+  transition: all 0.3s ease;
+}
+
+.container form .custome-input input:focus + i {
+  color: #aaa;
+}
+
+.container form .login {
+  display: inline-block;
+  width: 100%;
+  margin-top: 30px;
+  background-color: #fff;
+  color: #2a2a2a;
+  text-decoration: none;
+  border: none;
+  line-height: 50px;
+  font-size: 18px;
+  letter-spacing: 0.025em;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px #2a2a2a;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.container form .login:hover {
+  background-color: #2a2a2a;
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 4px #2a2a2a;
+}
+
+.container .links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.container .links a {
+  color: #aaa;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  text-underline-offset: 6px;
+  text-decoration-color: #2a2a2a;
+}
+
+.container .links a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Media Queries */
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .logo {
+    top: 12px;
+    left: 12px;
+  }
+
+  .logo img {
+    width: 36px;
+  }
+
+  .logo a {
+    font-size: 20px;
+  }
+
+  .container h1 {
+    font-size: 1.4rem;
+  }
+
+  .container .social-login {
+    gap: 12px;
+    margin-top: 16px;
+  }
+
+  .container .social-login button {
+    padding: 6px;
+    font-size: 0.9rem;
+    gap: 6px;
+  }
+
+  .container .social-login button i {
+    font-size: 22px;
+  }
+
+  .container .divider .line {
+    margin: 20px 0 12px;
+  }
+
+  .container form label {
+    font-size: 12px;
+    margin-top: 8px;
+  }
+
+  .container form .custome-input input {
+    font-size: 14px;
+    height: 36px;
+    text-indent: 16px;
+    margin-top: 4px;
+  }
+
+  .container .links a {
+    font-size: 0.9rem;
+    text-underline-offset: 4px;
+  }
+}

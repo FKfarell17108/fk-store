@@ -1,0 +1,546 @@
+/* code by farell kurniawan */
+
+/* ######### */
+
+/* body img{
+  width: 100%;
+  height: 100%;
+} */
+
+/* ######### */
+
+/* Box Header*/
+.container-header{
+  
+  padding: 20px;
+}
+.wrapper-header{  
+  border-radius: 10px;
+  border: 1px solid whitesmoke;
+  padding: 10px;
+  /* position: fixed;
+  top: 0;
+  left: 0;
+  right: 0; */
+}
+.box-header{
+  width: 100%;
+  height: 100%;
+}
+
+/* ######### */
+
+/* Box Navbar*/
+.container-navbar{
+  
+  padding: 20px;
+}
+.wrapper-navbar{  
+  /* margin-top: 400px; */
+  border-radius: 10px;
+  border: 1px solid whitesmoke;
+  padding: 10px;
+  /* position: fixed;
+  top: 0;
+  left: 0;
+  right: 0; */
+}
+.box-navbar{
+  width: 100%;
+  height: 100%;
+}
+
+/* ######### */
+
+/* Box content*/
+.container-content{
+  
+  padding: 20px;
+}
+.wrapper-content{
+  /* margin-top: 390px; */
+  border-radius: 10px;
+  border: 1px solid whitesmoke;
+  padding: 10px;
+  overflow-y: auto;
+  /* max-height: 850px; */
+}
+.box-content{
+  width: 100%;
+  height: 100%;
+}
+
+/* ######### */
+
+/* Box Footer*/
+.container-footer{
+  
+  padding: 20px;
+}
+.wrapper-footer{
+  /* margin-top: 1360px; */
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 1px solid whitesmoke;
+  padding: 10px;
+  /* position: fixed;
+  top: 0;
+  left: 0;
+  right: 0; */
+}
+.box-footer{
+  width: 100%;
+  height: 100%;
+}
+
+/* ######### */
+
+/* Header-Slider AutoRunning */
+.header-slider {
+  width: 100%;
+  overflow: hidden;
+}
+.slider {
+  display: flex;
+  width: 100%;
+} 
+.slider img {
+  width: 100%;
+  transition: transform 0.1s ease;
+}
+
+/* ######### */
+
+/* Text Rata Tengah Pada (navbar.php)*/
+nav {  
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  width: 100%;
+  font-weight: bolder;
+  font-size: 17pt;
+}
+/* Background Text Pada (navbar.php)*/
+nav ul {
+  /* background: #d3d4d4; */
+  padding: 0px;
+  list-style: none;
+  position: relative;
+  display: inline-table;
+  width: 100%;
+}
+ /* Text Segaris ke Kanan Pada (navbar.php)*/
+ nav ul li {
+  float: left; 
+  
+}
+ /* Background Text Segaris ke Kanan (navbar.php)*/
+ nav ul li:hover {
+  background: #f2f5f2;
+  padding-block-start: 3px;
+}
+/* Keranjang Pada (navbar.php)*/
+nav ul li.cart {
+  float: right;
+  height: 33px;
+  padding: 0 50px; /* Adjust the padding as needed */
+  border-left:6px solid none;
+}
+nav ul li.cart:hover {
+  background: #f2f5f2;
+  padding-block-start: 5px;
+}
+ /* Hey, User Pada (navbar.php)*/
+ nav ul li.login { 
+  
+  float: right;
+  height: 43px;
+  background: #2C97DF;
+  border-left:6px solid #2A80B9;
+}
+/* Hey, User + Efek Pada (navbar.php)*/
+nav ul li.login:hover {
+  background: #2A80B9;
+}
+/* Tombol Keluar Akun */
+.logout a {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #000000;
+  text-decoration: none;
+  padding: 5px 5px;
+  font-weight: bolder;
+}  
+/*Icons Tombol Keluar Akun */
+.logout a i {
+  margin-right: 0px;
+  color: black;
+}
+/* Keluar Pada (navbar.php)*/
+nav ul li.logout {
+  float: right;
+  height: 43px;
+  background: #e41f49;
+  border-left:6px solid #d0163d;   
+}
+/* Keluar + Efek Pada (navbar.php)*/
+nav ul li.logout:hover {
+  background: #d0163d;
+  height: 53px;
+}
+ /* Dekorasi Pada (navbar.php)*/
+ nav ul li a {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  display: block;
+  padding: 6px;
+  color: whitesmoke;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: black;
+}
+
+/* ######### */
+
+/*Tabel Content Barang (Beranda.php)*/
+table { 
+  max-height: 100px;
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  margin-left: 6px;
+  margin-right: 6px;
+}
+/* Text All */
+td {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: whitesmoke;
+  font-weight: bolder;
+}
+/* Sub Text Profil Tentang Keranjang Pesanan Selesai */
+#box h1, h2 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: whitesmoke;
+  margin-left: 6px;
+  margin-bottom: 10px;
+}
+/*Border Content Barang (Beranda.php)*/
+td.list { 
+  padding: 10px;
+  max-width: 200px;
+  /* border: 1px solid #dad5d5; */
+  text-align: center;
+  vertical-align: bottom;
+  font-size: 22px;
+}   
+/* Mengatur Tampilan Gambar Barang (Beranda.php)*/
+td.list img { 
+  /* width: 100%; */
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 5px;
+} 
+/* Tombol Beli Content (beranda.php)*/
+.link {
+  background-color: #28a745;
+  color:#0ef;
+  border-top:0px solid #28a745;
+  border-bottom:4px solid #13947c;
+  padding: 3px 50px;
+  border-radius: 4px;
+  color: #FFF;
+  text-decoration: none;
+}
+/* Tombol Beli Klik Efek Content (beranda.php)*/
+.link:hover {
+  background-color: #0d7e49;
+  border-top:4px solid #0d7e49;
+  border-bottom:4px solid #13947c;
+  padding: 3px 30px;
+  border-radius: 4px;
+  color: #FFF;  
+}
+/* Tombol Stok Content (beranda.php)*/
+button {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: #f37805;
+  color:black;
+  /* border-top:4px solid #f37805; */
+  border-bottom:4px solid #d16805;
+  padding: 3px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 13pt;
+}
+
+/* ######### */
+
+/*Text Kuantiti Keranjang Belanja*/
+/* .keranjang-title {
+  border-top: 3px solid #cccecd;
+  border-bottom: 5px solid #cccecd;
+  background: #cccecd;
+  width: 100%;
+  height: 30px;
+  margin: auto;
+} */
+.keranjang-title p { 
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #0a0a0a; 
+  margin: 5px 5px;
+  text-align: right;
+}
+/*Tabel Keranjang Belanja*/
+/* .keranjang { 
+  border-bottom: 3px solid #cccecd;
+  border-left: 3px solid #cccecd;
+  border-right: 3px solid #cccecd;
+  width: 100%;
+  margin: auto;
+  min-height: 100px;
+  overflow: hidden;
+} */
+
+/* ######### */
+
+/*Tinggi Row Tabel Keranjang*/
+.news td { 
+  padding: 15px; 
+  border: 1px solid whitesmoke;
+}
+/* Ukuran font untuk seluruh isi Struktur tabel */
+table {
+  font-size: 16px; 
+}
+
+/*Tebal & Warna Border Struktur Tabel Keranjang*/
+.news th { 
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: #f37805;
+  color: black;
+  height: 30px;
+  border: 1px solid white;
+}
+/*Efek Row Isi Tabel*/
+.news tr:hover { 
+  background-color: rgb(99, 5, 250); 
+}
+.news {
+  width: 100%;
+}
+
+/* ######### */
+
+/* Background Tombol Semua Biru */
+.tombol-biru{ 
+  background:#2C97DF;
+  color:white;
+  border-top:0;
+  border-left:0;
+  border-right:0;
+  border-bottom:4px solid #2A80B9;
+  border-radius: 5px;
+  padding:5px 20px;
+  text-decoration:none;
+  font-size:16pt;
+  margin:10px;
+}
+/* Background + EFEK Tombol Semua Biru */
+.tombol-biru:hover { 
+  background:#2A80B9;
+  color:white;
+  border-radius: 5px;
+  padding:5px 15px;
+  text-decoration:none;
+  font-size:11pt;
+}
+
+/* ######### */
+
+/* Background Tombol Semua Merah */
+.tombol-merah{ 
+  background:#ef4162;
+  color:white;
+  border-top:0;
+  border-left:0;
+  border-right:0;
+  border-bottom:4px solid #da2648;
+  border-radius: 5px;
+  padding:5px 20px;
+  text-decoration:none;
+  font-size:16pt;
+}  
+/* Background + EFEK Tombol Semua Merah */
+.tombol-merah:hover { 
+  background:#da2648;
+  color:white;
+  border-radius: 5px;
+  padding:5px 15px;
+  text-decoration:none;
+  font-size:11pt;
+}
+
+/* ######### */
+
+/*Detail Gambar Barang (belanja_detail.php)*/
+table.article img {
+  width: 100%; /* Gambar mengambil lebar penuh di dalam sel */
+  max-width: 300px; /* Batasi lebar gambar */
+  height: auto; /* Biarkan tinggi gambar menyesuaikan proporsinya */
+  display: block; /* Hapus ruang putih di bawah gambar */
+  margin: 0 auto; /* Pusatkan gambar di dalam sel */
+}
+/* table.article tr {
+  font-size: 25pt;
+  width: 1px;
+} */
+/* #box select {  
+  padding: 6px 12px;
+  border: 1px solid #080808;
+  border-radius: 4px;
+  background-color: #fff;
+  width: 30%;
+} */
+/*Dropdown Detail Barang (belanja_detail.php)*/
+#box select option { 
+  padding: 6px 12px;
+}
+/* Input jumlah Dertail Barang (belanja_detail.php)*/
+#box input[type="number"] { 
+  padding: 6px 12px;
+  border: 1px solid #080808;
+  border-radius: 4px;
+  width: 100px;
+}
+/* Whatsapp Chats Button */
+.tombol-hijau { 
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  display: inline-block;
+  padding: 0px 15px;
+  background-color: #28a745;
+  color: white;
+  text-decoration: none; 
+  border-radius: 50px;
+  border-top:0;
+  border-left:0;
+  border-right:0;
+  border-bottom:4px solid #28a790;    
+  font-size:20pt;
+  font-weight: bolder;
+  margin:10px;
+}
+/*Efek Whatsapp Chats Button */
+.tombol-hijau:hover { 
+  background-color: #218838;
+}
+
+
+/* ######### */
+
+/* Data Barang (data_barang.php */
+/* body { 
+  font-family: Arial, sans-serif;
+  margin: 5px;
+  padding: 5px;
+} */
+/*Warna Border Data Barang Struktur Tabel*/ 
+/* th { 
+  background-color: #4CAF50;
+  color: white;
+  border: 1px solid black;
+} */
+/*Tinggi Kolom Data Barang Struktur Tabel*/ 
+/* th, td {
+  padding: 8px;
+} */
+/*Efek Kolom Data Barang Struktur Tabel*/ 
+/* tr:hover {
+  background-color: #f2f2f2;
+} */
+
+/* ######### */
+
+/* table.td {
+  font-size: 25px;
+} */
+/* input[type="text"], input[type="submit"] { 
+  width: calc(50% - 16px);
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+} */
+
+/* ######### */
+
+/*Text Profil (profil.php)*/
+
+/* Text Isi Form Tentang  (tentang.php)*/
+#box li {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+}
+/* Padding Text Isi Form Profil & Tentang*/
+#box td { 
+  margin-left: 5px;
+  padding: 15px;
+}  
+/*Gambar Produk Detail Barang & Foto Profile*/
+#box img {
+  display: block; /* Mengubah gambar menjadi blok agar margin otomatis dapat diterapkan */
+  margin: 0 auto; /* Memberikan margin otomatis secara horizontal untuk memposisikan gambar di tengah */
+  width: 200px; /* Lebar gambar */
+  height: auto; /* Tinggi gambar menyesuaikan proporsi */
+  margin-bottom: 80px; /* Jarak antara gambar dan teks di bawahnya */
+}
+/*Text Isi Tabel Keranjang & Pesanan  (belanja.php)*/
+#box table td {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 13pt;
+  line-height: 1.5;
+}
+
+/* ######### */
+
+/* Background Efek Profil  */
+.article tr:hover { 
+  background-color: rgb(99, 5, 250);
+}
+
+/* ######### */
+ 
+/*Background Pesan Daftar Pada Beranda Pada (beranda.php)*/
+.pesan {  
+  background: #f37805;
+  width: 98%;
+  margin: 15px;
+  border-radius: 15px;
+  display: inline-flex;
+}  
+/* Warna Text Pesan Daftar Pada Beranda Pada beranda.php */
+.pesan p { 
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: black;
+  font-weight: bolder;
+  padding-left: 15px;
+}
+
+
+
+/* ######### */
+
+
+
+
+
+/*CSS untuk konten */
+  /* .content-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  overflow-y: auto;
+  max-height: 500px;
+}
+
+
+

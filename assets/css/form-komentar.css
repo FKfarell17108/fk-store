@@ -1,0 +1,100 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+form {
+  padding: 100px;
+}
+
+form input {
+  width: 100%;
+  height: 44px;
+  line-height: 44px;
+  padding: 0px 15px;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 500;
+  color: #aaa;
+  border-radius: 0px;
+  border: 1px solid #7a7a7a;
+  box-shadow: none;
+}
+
+form input::focus {
+  border-color: #2a2a2a;
+  border-radius: 0px;
+}
+
+form textarea {
+  width: 100%;
+  height: 140px;
+  min-height: 120px;
+  max-height: 200px;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  line-height: 44px;
+  padding: 0px 15px;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 500;
+  color: #aaa;
+  border-radius: 0px;
+  border: 1px solid #7a7a7a;
+  box-shadow: none;
+}
+
+form textarea::focus {
+  border-color: #2a2a2a;
+  border-radius: 0px;
+}
+/* Gaya untuk daftar komentar */
+ul.comments {
+  color: #2a2a2a;
+  list-style-type: none;
+  margin: 0;
+  padding: 100px;
+}
+/* Gaya untuk komentar utama */
+ul.comments li {
+  color: #2a2a2a;
+  margin-bottom: 20px;
+  border-bottom: 3px dotted #eee;
+  padding-bottom: 20px;
+}
+/* Gaya untuk komentar balasan */
+ul.comments.reply {
+  margin-top: 10px;
+  margin-left: 50px;
+}
+/* Gaya untuk tombol balasan */
+.comments div {
+  cursor: pointer; /* Kursor berubah menjadi tanda tangan saat diarahkan */
+  margin-bottom: 5px; /* Jarak antara tombol balasan dan komentar */
+}
+/* Gaya untuk formulir balasan */
+.comments form {
+  display: inline-block;
+  margin-top: 10px;
+}
+/* Gaya untuk label */
+label {
+  color: #2a2a2a;
+}
+
+/* Style untuk tombol submit */
+button[type="submit"] {
+  cursor: pointer;
+  margin-top: 20px;
+  border: 1px solid #2a2a2a;
+  color: #2a2a2a;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: background-color 0.3s, transform 0.3s;
+  display: inline-block;
+  font-weight: bold;
+}
+
+button[type="submit"]:hover {
+  background-color: #2a2a2a;
+  color: #fff;
+}

@@ -1,0 +1,61 @@
+/* admin.css */
+
+/* Style for the box-title */
+/* .box-title {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+} */
+
+/* .box-title p {
+    margin: 0;
+} */
+
+/* Text Produk Jualan */
+#box h2 {
+  font-size: 24px;
+  color: whitesmoke;
+  margin-bottom: 20px;
+}
+/* Lebar  Tabel Barang Struktur Name */
+.news {
+  font-size: 16pt;
+  width: 100%;
+  border-collapse: collapse;
+}
+/* Warna Border Table */
+.news th,
+.news td {
+  padding: 10px;
+  border: 1px solid white;
+}
+/* Warna Fill Struktur Table */
+.news th {
+  background-color: #f37805;
+  text-align: center;
+}
+
+/* ############ */
+
+/* Link Ubah Hapus */
+.tombol-biru,
+.tombol-merah {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  display: inline-block;
+  padding: 5px 10px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+}
+.tombol-biru {
+  background-color: #007bff;
+}
+.tombol-merah {
+  background-color: #dc3545;
+}
+.tombol-biru:hover,
+.tombol-merah:hover {
+  opacity: 0.8;
+}
+
+/* ############ */

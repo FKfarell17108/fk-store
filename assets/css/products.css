@@ -1,0 +1,67 @@
+.responsive-table {
+  overflow-x: auto;
+}
+
+@media (max-width: 720px) {
+  .responsive-table {
+    overflow-x: auto;
+  }
+}
+
+/* Gaya dasar untuk konten produk */
+#box {
+  margin: 15px; /* Mengatur jarak atas dan bawah 50px, dan mengatur sisi kiri dan kanan otomatis untuk menempatkan kotak di tengah */
+  max-width: 800px;
+  padding: 20px; /* Menambahkan jarak di sekitar konten */
+  text-align: center;
+}
+
+.list {
+  padding: 50px;
+  text-align: center;
+  border: 1px solid #aaa;
+}
+
+.list img {
+  width: 150px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.list button {
+  background-color: #2a2a2a;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  cursor: default;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-right: 30px;
+}
+
+.list a.link {
+  color: #2a2a2a;
+  text-decoration: none;
+  font-size: 19px;
+}
+
+.list a.link:hover {
+  color: #aaa;
+}
+
+/* Animasi untuk tombol belanja */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.list a.link i {
+  animation: pulse 1s infinite;
+}
