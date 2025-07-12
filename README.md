@@ -1,4 +1,4 @@
-# fk-store - CRUD Website with php
+# FK Store - CRUD Website
 
 ## Descriptions
 
